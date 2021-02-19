@@ -17,3 +17,10 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+import math
+x = input("write a number")
+x=float(x)
+for i in range(1,13):
+    x= ("i*x")
+
+    print(i)

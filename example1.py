@@ -15,5 +15,5 @@ myFriends = ("Carol","Christine","Dan","Richard")
 
 # to reference members of the tuple, use an index:
 # the index starts at 0 and increases by 1
-print(myFriends[1] + " is one of the people that I have known the longest!")
+print(myFriends[0] + " is one of the people that I have known the longest!")
 print("\n\n\n")
