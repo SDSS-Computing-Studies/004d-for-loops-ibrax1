@@ -31,4 +31,9 @@ for i in nameList:
     if...else
     print("that name is not on the list")
     
+    if <condition> :
+        commands
+    else:
+        more commands
+    
 
