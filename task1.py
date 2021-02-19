@@ -19,8 +19,8 @@ Enter number:4
 """
 import math
 x = input("write a number")
-x=float(x)
+x=int(x)
 for i in range(1,13):
     i= (i*x)
 
-    print(i)
+    print(i, end=", ")
