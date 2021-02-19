@@ -21,6 +21,6 @@ import math
 x = input("write a number")
 x=float(x)
 for i in range(1,13):
-    x= (i*x)
+    i= (i*x)
 
-    print(x)
+    print(i)
