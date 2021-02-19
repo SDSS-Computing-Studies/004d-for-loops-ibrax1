@@ -28,5 +28,7 @@ for i in nameList:
     if i == a:
         continue
     print("That name is on the list")
-else:
+    if...else
     print("that name is not on the list")
+    
+
