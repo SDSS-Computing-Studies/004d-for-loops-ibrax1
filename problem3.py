@@ -17,3 +17,11 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+n = input("Enter an integer smaller than ten: ")
+n = int(n)
+numList = (1, 11, 111, 1111, 11111, 111111, 1111111, 11111111, 111111111)
+total = (0)
+for number in numList:
+    for i in range(len(numlist)):
+        print((numlist[number])
+        
