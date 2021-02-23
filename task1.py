@@ -23,4 +23,4 @@ x=int(x)
 for i in range(1,13):
     i= (i*x)
 
-    print(i, end=", ")
+    print(i, end=" ")
