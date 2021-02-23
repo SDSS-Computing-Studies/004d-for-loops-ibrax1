@@ -22,6 +22,8 @@ n = int(n)
 numList = (1, 11, 111, 1111, 11111, 111111, 1111111, 11111111, 111111111)
 total = (0)
 for number in numList:
-    for i in range(len(numList)):
-        ((numList[number]))
-        print(n + total)
+    total = number + total
+    if number == n:
+        break
+    print(total)
+    
