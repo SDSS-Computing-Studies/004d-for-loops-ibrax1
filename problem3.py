@@ -21,9 +21,12 @@ n = input("Enter an integer smaller than ten: ")
 n = int(n)
 numList = (1, 11, 111, 1111, 11111, 111111, 1111111, 11111111, 111111111)
 total = (0)
+count = (0)
 for number in numList:
+    count = count + 1
     total = number + total
-    if number == n:
+    if count == n:
         break
-    print(total)
+total = str(total)
+print("the sum of the series is "+ total)
     
